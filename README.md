@@ -3,6 +3,23 @@ The Playlist feature significantly enhances the Clubber TV user experience by al
 
 Feature Suggestion:
 One small improvement would be to implement push notifications that alert users when a match from their playlist goes live. This would ensure users never miss a match they’ve saved, further enhancing user engagement and satisfaction.
+
+Frontend Setup Instructions:
+Clone the repository:
+
+git clone https://github.com/yourusername/my-sports-playlist-frontend.git
+Navigate to the project directory:
+
+cd my-sports-playlist-frontend
+
+Install dependencies:
+
+npm install
+
+Serve the Angular app:
+
+ng serve
+The app will be available at http://localhost:4200.
 # MySportsPlaylist
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
