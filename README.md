@@ -1,3 +1,8 @@
+Business Understanding:
+The Playlist feature significantly enhances the Clubber TV user experience by allowing users to curate and organize their favorite matches in one place, making it easier to access and enjoy the content they love. It also offers personalized control, where users can manage their playlist, ensuring they never miss important matches. This feature promotes engagement, as users can quickly add and revisit matches based on their preferences.
+
+Feature Suggestion:
+One small improvement would be to implement push notifications that alert users when a match from their playlist goes live. This would ensure users never miss a match they’ve saved, further enhancing user engagement and satisfaction.
 # MySportsPlaylist
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
