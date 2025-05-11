@@ -1,0 +1,17 @@
+<div class="playlist-wrapper">
+  <h2>🎬 My Playlist</h2>
+
+  <div *ngIf="loading">Loading playlist...</div>
+  <div *ngIf="error" class="error">{{ error }}</div>
+
+  <ul *ngIf="!loading && playlist.length" class="playlist">
+    <li *ngFor="let match of playlist" class="match-item">
+      <span>
+        <strong>{{ match.title }}</strong> - {{ match.competition }} ({{ MatchStatus[match.status] }})
+      </span>
+      <button (click)="removeFromPlaylist(match.id)">Remove</button>
+    </li>
+  </ul>
+
+  <div *ngIf="!loading && !playlist.length">No matches in your playlist.</div>
+</div>
